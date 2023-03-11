@@ -1,0 +1,73 @@
+<html><head>
+	<meta charset="utf-8">
+	<title> Ashok-Recreate Cholera Visualization</title>
+	<script src="https://d3js.org/d3.v7.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="header">
+		<h2>Ashok - Recreating Dr.John Snow's Cholera Epidemic using d3</h2>
+	</div>
+    <div id="doc">
+        <a href="index.html" style="float:right;
+        color: #414141;
+        padding: 40px 40px 0px 0px;">Back</a>
+    </div>
+    <div style="padding: 40px 0px 100px 40px;font-family:sans-serif;">
+        <p> </p><h3>Introduction</h3><br>
+        The iconic historical map created by Dr. John Snow is regarded as a pivotal turning point in the development of epidemiology. A British doctor named Dr. John Snow developed it in 1854, when London was experiencing a cholera outbreak. At the time, cholera was a fatal illness that killed hundreds of people, and it was still unclear how it spread.<br>
+        One of the first people to hypothesize that cholera was spread by tainted water was Dr. John Snow. He gathered information on the city's cholera cases and plotted them on a map to support his theory. The outbreak was then linked to the tainted water supply after he discovered a concentration of cases near the Broad Street water pump.Dr. John Snow's map had a tremendous effect on public health. It opened the way for contemporary GIS technology and showed the value of spatial analysis and data visualization in epidemiology. The map also had an impact on public policy, which helped many communities construct sanitary infrastructure and clean water sources.<br><br>
+        <p> </p><h3>About:</h3><br>
+        For   H517: Visualization Design, Analysis, & Assessment, course project Ashok Varma  re-created a Interactive Data visualization of the London cholera pandemic of 1854.
+            <br><br>
+            Objective : To use D3.js and other open source frameworks of js to create more intense interactive version of Dr. John Snow's epidemic map with the provided data below
+            <br><br>
+            source data - pumps, streets places where most deaths occured, and other demographic data - are provided as part of this project.
+            <a href= "https://khreda.com/teaching/spring23/H517/project1/"> Project Details</a><br><br>
+            <h3>Design:</h3><br>
+            <h4>1. Layout</h4><br>
+            <img width="600" height="400" src="img/image_1.jpeg"> <br><br>
+            Firstly I went through the project requirements and used the required datasets i.e. streets, pumps, deathdays and deathagessex files.The next part I tried to analyze the project drawn a rough graph as shown in figure above
+Map,pie charts,and bar graph.i will explain each in detail beolw.<br><br>
+            <h4>2.Visualizations</h4><br>
+            Developed a interactive map with the data points with streets, death locations, pumps which represent the distribution of deaths with the colors by the gender. <br><br>
+            <br><br>
+
+            <img width="600" height="500" src="img/image_2.jpg"><br><br> 
+            <br><br>
+            Developed the map with the street names and labels and workhouse brewery as shown in the below image.<br><br>
+            <br><br>
+            <img width="600" height="500" src="img/image_3.jpg"> <br><br>
+            <br><br>
+            I created a graph that displays the daily number of deaths during the epidemic period, using a time series format.It shows them data of death people on particular day required.<br><br>
+            <br><br>
+            <img width="800" height="600" src="img/image_4.jpg"><br><br>
+            <br><br>
+             Created a pie chart representing number of death by sex  so that we can identify individually regarding male and female deaths in the map.<br><br>
+             <br><br>
+             <img width="600" height="500" src="img/image_5.jpg"><br><br>
+            <br><br>
+            Created another pie chart which clearly identifies number of death by age group.Deaths within age group of infants i.e 1-10 and &gt; aged people with more than 80years of age and above are more when  compare to other age groups and death rate between males and females is not particularly significant. <br><br>
+            <br><br>
+            <img width="600" height="500" src="img/image_6.jpg"> <br><br>
+            <h4>3.Findings</h4><br>
+            We can observe from the map that females are more impacted than males. The number of deaths by age group can be seen by lingering over the first pie chart. The visualization demonstrates that age groups under 10 and older than 80 are more affected by this incidence than other age groups. Third, a timeline graph that displays the dates of deaths and the total number of fatalities that happened on each date. There was a significant fatality rate between August 9 and September 10, as you can see. Moreover, the first of September saw the greatest fatality rate. I've also included pie charts so that the user may see the percentage of deaths broken down by age and sex.<br><br>
+             <br><br>
+             <img width="1000" height="1000" src="img/image_7.jpg"> <br><br>
+            <br><br>
+            <h4>4.References</h4><br>
+           <a href= "https://www.w3schools.com/graphics/svg_intro.asp">www.w3schools.com/graphics/svg_intro.asp</a><br><br>
+           <a href="https://www.w3schools.com/w3js/">www.w3schools.com/w3js</a><br><br>
+           <a href="https://www.w3schools.com/w3css/">https://www.w3schools.com/w3css</a><br><br>
+           <a href="https://www.toptal.com/designers/colorfilter">www.toptal.com/designers/colorfilter</a><br><br>
+           <a href="https://codepen.io/rstrahl/pen/yyEYBx">https://codepen.io/rstrahl/pen/yyEYBx</a><br><br>
+           <a href="https://www.udemy.com/data-visualize-data-with-d3js-the-easy-way/learn/v4/overview">www.udemy.com/data-visualize-data-with-d3js-the-easy-way/learn/v4/overview</a><br><br>
+           <a href="https://webdva.github.io/how-to-draw-a-line-in-d3js">webdva.github.io/how-to-draw-a-line-in-d3js</a>
+           <a href="https://d3js.org">d3js.org</a><br><br>
+            <a href="https://github.com/d3/d3/blob/main/API.md">D3 Documentation</a><br><br>
+            
+            
+        <p></p>
+    </div>
+
+</body></html>
